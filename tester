@@ -28,6 +28,7 @@ BLUE="\033[0;36m"
 RED="\e[0;31m"
 END="\033[0m"
 
+touch ./test_files/invalid_permission
 chmod 000 ./test_files/invalid_permission
 mkdir ./outfiles
 mkdir ./mini_outfiles
